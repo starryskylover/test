@@ -16,5 +16,8 @@ export default defineNuxtConfig({
         }
       }
     }
+  },
+  app: {
+    base: '/test/' // Замените my-repo на имя вашего репозитория
   }
 })
