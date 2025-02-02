@@ -12,7 +12,8 @@ const dropdownValue2 = ref("Все")
 const selectedValues1 = ref([])
 const fetchCities = async () => {
   try {
-    const response = await fetch('${baseURL}russia-cities.json');
+    // const response = await fetch('/russia-cities.json');
+    const response = await fetch('/https://github.com/starryskylover/example/blob/main/public/russia-cities.json');
     const data = await response.json();
     cities.value = data;
   } catch (error) {
