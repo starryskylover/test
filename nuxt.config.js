@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    base: '/example/' // Замените my-repo на имя вашего репозитория
+    baseURL: '/example/', // Замените my-repo на имя вашего репозитория
+    buildAssetsDir: 'assets'
   }
 })
